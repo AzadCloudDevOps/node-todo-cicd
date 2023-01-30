@@ -22,7 +22,7 @@
   * [Prerequisites](#prerequisites)
   * [Installation](#installation)
 * [Fork the repository](#fork-the-repository)
-* [SSH server connection with GitHub](#ssh-server-connection-with-github)
+* [SSH Keys](#ssh-keys)
 * [Webhook](#webhook)
 * [Continuous Deployment](#continuous-deployment)
 * [Usage](#usage)
@@ -64,14 +64,13 @@ node app.js
 git fork <github_repo_url>
 ```
 
-###Authorized ssh-keys in server
+### SSH Keys
 ```bash
 ssh-keygen
 cd .ssh
 ls
 ```
-
-### SSH server connection with GitHub
+**SSH server connection with GitHub**
 * Open GitHub personal account setting
 * Select SSH and GPG keys
 * Add new ssh-key
@@ -87,7 +86,7 @@ Webhook in jenkins triggers pipeline automatically when any changes are done in 
 
 ### Continuous Deployment
 #### Using Dockerfile
-* Login into Jenkins with credentials say username and password
+* Login to Jenkins with credentials say username and password
 * Click on new item of freestyle project
 * Set description for the project.
 * Add GitHub repository Url in GitHub project.
@@ -119,4 +118,4 @@ Webhook in jenkins triggers pipeline automatically when any changes are done in 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-_For better understanding, please refer the [Article](https://akash-zade.hashnode.dev/complete-jenkins-cicd-project)_
+_For more understanding, please refer the [Article](https://akash-zade.hashnode.dev/complete-jenkins-cicd-project)_
