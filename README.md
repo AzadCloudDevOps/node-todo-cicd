@@ -8,10 +8,6 @@
   <p align="center">
     An awesome project to understand automation of nodejs application using webhook integration!
     <br />
-    <br />
-    <a href="https://github.com/AzadCloudDevOps">Report Bug</a>
-    ·
-    <a href="https://github.com/AzadCloudDevOps">Request Feature</a>
   </p>
 </p>
 
