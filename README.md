@@ -109,7 +109,7 @@ Webhook in jenkins triggers pipeline automatically when any changes are done in 
  ```
 * Save the project.
 * Install **GitHub integration** plugin via manage plugin.
-* Test the application via changing the GitHub repo code.
+* Test the application via modifying the GitHub repo code.
 
 <!-- USAGE EXAMPLES -->
 ## Usage
