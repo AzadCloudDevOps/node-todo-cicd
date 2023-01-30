@@ -21,10 +21,11 @@
 * [Getting Started](#getting-started)
   * [Prerequisites](#prerequisites)
   * [Installation](#installation)
-  * [Fork the repository](#fork-the-repository)
-  * [SSH server connection with GitHub](#ssh-server-connection-with-github)
-  * [Webhook](#webhook)
-  * [Continuous Deployment](#continuous-deployment)
+* [Fork the repository](#fork-the-repository)
+* [SSH server connection with GitHub](#ssh-server-connection-with-github)
+* [Webhook](#webhook)
+* [Continuous Deployment](#continuous-deployment)
+* [Usage](#usage)
 
 <!-- GETTING STARTED -->
 ## Getting Started
