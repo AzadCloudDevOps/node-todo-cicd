@@ -77,9 +77,6 @@ Webhook in jenkins triggers pipeline automatically when any changes are done in 
 * Select Add webhook and paste URL
 * Append url with /github-webhook/
 
-### Plugins required
-* Install **GitHub integration** plugin via manage plugin. 
-
 ### Continuous Deployment
 #### Using Dockerfile
 * Login into Jenkins with credentials say username and password
@@ -96,7 +93,6 @@ docker build . -t <image_tag>
 docker run -d --name <container_name> -p <ext_port>:<int_port> <image_tag>
 ```
 * Save the project.
-* Try to change the github repo code for checking webhook integration.
 
 #### Using Docker-compose.yaml file
 * Uncheck the GitHub trigger
@@ -109,6 +105,7 @@ docker compose down
 docker compose up -d --build
 ```
 * Save the project.
+* Install **GitHub integration** plugin via manage plugin.
 * Test the application via changing the GitHub repo code.
 
 
