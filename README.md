@@ -1,7 +1,10 @@
-[![LinkedIn](https://img.shields.io/badge/in-linkedin-blue.svg)](https://www.linkedin.com/in/akash-zade/)
+[![LinkedIn](https://img.shields.io/badge/in-linkedin-magenta.svg)](https://www.linkedin.com/in/akash-zade/)
 
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <a> <img src="https://www.vectorlogo.zone/logos/nodejs/nodejs-icon.svg" alt="Logo" width="80" height="80"> </a>
  <h2 align="center">Nodejs-Todo-App</h2>
-
   <p align="center">
     An awesome project to understand automation of nodejs application using webhook integration!
     <br />
@@ -15,7 +18,13 @@
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
 
-
+* [Getting Started](#getting-started)
+  * [Prerequisites](#prerequisites)
+  * [Installation](#installation)
+  * [Fork the repository](#fork-the-repository)
+  * [SSH server connection with GitHub](#ssh-server-connection-with-github)
+  * [Webhook](#webhook)
+  * [Continuous Deployment](#continuous-deployment)
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -58,15 +67,13 @@ git fork <github_repo_url>
 ```bash
 ssh-keygen
 cd .ssh
-cat id_rsa.pub
-cat id_rsa
+ls
 ```
 
-### Connection of Server with GitHub via SSH
+### SSH server connection with GitHub
 * Open GitHub personal account setting
 * Select SSH and GPG keys
 * Add new ssh-key
-* Set title, Key(paste here id_rsa.pub)
 
 ### Webhook
 
@@ -80,11 +87,11 @@ Webhook in jenkins triggers pipeline automatically when any changes are done in 
 ### Continuous Deployment
 #### Using Dockerfile
 * Login into Jenkins with credentials say username and password
-* Create a new item of freestyle project
-* Set description for your project.
-* Add GitHub repo Url in GitHub project.
+* Click on new item of freestyle project
+* Set description for the project.
+* Add GitHub repository Url in GitHub project.
 * Add Git in Source code management.
-* Set credentials with SSH username and private key(paste here id_rsa)
+* Set credentials with SSH username and private key.
 * Add Build triggers say **GitHub hook trigger for GITScm** for webhook automation.
 * Add Build Steps
  ```bash
@@ -108,7 +115,7 @@ Webhook in jenkins triggers pipeline automatically when any changes are done in 
 * Install **GitHub integration** plugin via manage plugin.
 * Test the application via changing the GitHub repo code.
 
+<!-- USAGE EXAMPLES -->
+## Usage
 
-
-
-
+_For better understanding, please refer the [Article](https://akash-zade.hashnode.dev/complete-jenkins-cicd-project)_
