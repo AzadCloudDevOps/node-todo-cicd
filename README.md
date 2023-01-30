@@ -1,4 +1,4 @@
-[![LinkedIn](https://img.shields.io/badge/in-linkedin-magenta.svg)](https://www.linkedin.com/in/akash-zade/)
+[![LinkedIn](https://img.shields.io/badge/in-linkedin-cyan.svg)](https://www.linkedin.com/in/akash-zade/)
 
 <!-- PROJECT LOGO -->
 <br />
